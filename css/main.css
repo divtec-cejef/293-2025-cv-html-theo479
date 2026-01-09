@@ -38,4 +38,12 @@ body {
 body {
   font-family: 'Comic Neue', sans-serif;
 }
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: red;
+}
 
