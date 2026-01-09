@@ -27,11 +27,15 @@ body {
 body {
   background-image: url("wJzsAR5xo4xbii8NTbWy4F.jpg");
 }
-/* comic-neue-700 - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: 'Comic Neue';
-  font-style: normal;
+  src: url('comic-neue-v9-latin-700.woff2') format('woff2');
   font-weight: 700;
-  src: url('../fonts/comic-neue-v9-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  font-style: normal;
+  font-display: swap;
 }
+
+body {
+  font-family: 'Comic Neue', sans-serif;
+}
+
