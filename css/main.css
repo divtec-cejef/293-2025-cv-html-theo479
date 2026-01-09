@@ -29,6 +29,10 @@ body {
 }
 body {
   background-image: url("télécharger.webp");
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+
 }
 @font-face {
   font-family: 'Comic Neue';
